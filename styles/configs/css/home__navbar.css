@@ -1,0 +1,30 @@
+.custom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.custom-header .login-cart {
+  display: flex;
+  align-items: center;
+}
+
+.custom-header .login-button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.custom-header .cart-icon {
+  margin-right: 10px;
+}
+
+.custom-header .vtex-store-components-3-x-searchBarContainer {
+  max-width: 400px;
+}
