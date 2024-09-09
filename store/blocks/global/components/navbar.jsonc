@@ -1,0 +1,243 @@
+{
+  "flex-layout.row#navbar": {
+    "children": [
+      "flex-layout.col#navbar-left",
+      "flex-layout.col#navbar-center",
+      "flex-layout.col#navbar-right"
+    ]
+  },
+
+  "flex-layout.col#navbar-left": {
+    "children": [
+      "menu#menu-icon",
+      "image#logo"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  "menu#menu-icon": {
+    "blocks": ["menu-item#menu-icon"],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+
+  "menu-item#menu-icon": {
+    "props": {
+      "id": "icon",
+      "type": "custom",
+      "label": "☰"
+    }
+  },
+
+  "image#logo": {
+    "props": {
+      "src": "",
+      "alt": "ITG",
+      "maxWidth": "100px"
+    }
+  },
+
+  "flex-layout.col#navbar-center": {
+    "children": [
+      "search-bar",
+      "flex-layout.row#main-links"
+    ],
+    "props": {
+      "width": "60%",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "search-bar": {
+    "props": {
+      "placeholder": "Search products...",
+      "autoFocus": false
+    }
+  },
+
+  "flex-layout.row#main-links": {
+    "children": [
+      "store-link#link1",
+      "store-link#link2",
+      "store-link#link3",
+      "store-link#link4",
+      "store-link#link5"
+    ]
+  },
+
+  "store-link#link1": {
+    "props": {
+      "label": "Tendencias de ITGlobers",
+      "url": "/tendencias"
+    }
+  },
+
+  "store-link#link2": {
+    "props": {
+      "label": "Colección del mes",
+      "url": "/coleccion-del-mes"
+    }
+  },
+
+  "store-link#link3": {
+    "props": {
+      "label": "Ofertas enero",
+      "url": "/ofertas-enero"
+    }
+  },
+
+  "store-link#link4": {
+    "props": {
+      "label": "Cyber Monday",
+      "url": "/cyber-monday"
+    }
+  },
+
+  "store-link#link5": {
+    "props": {
+      "label": "Never say never",
+      "url": "/never-say-never"
+    }
+  },
+
+  "flex-layout.col#navbar-right": {
+    "children": [
+      "icon-cart",
+      "button#login"
+    ],
+    "props": {
+      "width": "20%",
+      "horizontalAlign": "right"
+    }
+  },
+
+  "icon-cart": {
+    "props": {
+      "size": 24
+    }
+  },
+
+  "button#login": {
+    "props": {
+      "text": "Login",
+      "blockClass": "login-btn"
+    }
+  },
+
+  "flex-layout.row#category-menu": {
+    "children": [
+      "flex-layout.col#category-food",
+      "flex-layout.col#category-fitness",
+      "flex-layout.col#category-arctic",
+      "flex-layout.col#category-poolday",
+      "flex-layout.col#category-hotels"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.col#category-food": {
+    "children": ["image#category-food", "rich-text#category-food"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category-food": {
+    "props": {
+      "src": "",
+      "maxWidth": "40px"
+    }
+  },
+
+  "rich-text#category-food": {
+    "props": {
+      "text": "Food"
+    }
+  },
+
+  "flex-layout.col#category-fitness": {
+    "children": ["image#category-fitness", "rich-text#category-fitness"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category-fitness": {
+    "props": {
+      "src": "",
+      "maxWidth": "40px"
+    }
+  },
+
+  "rich-text#category-fitness": {
+    "props": {
+      "text": "Fitness"
+    }
+  },
+
+  "flex-layout.col#category-arctic": {
+    "children": ["image#category-arctic", "rich-text#category-arctic"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category-arctic": {
+    "props": {
+      "src": "",
+      "maxWidth": "40px"
+    }
+  },
+
+  "rich-text#category-arctic": {
+    "props": {
+      "text": "En el Ártico"
+    }
+  },
+
+  "flex-layout.col#category-poolday": {
+    "children": ["image#category-poolday", "rich-text#category-poolday"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category-poolday": {
+    "props": {
+      "src": "",
+      "maxWidth": "40px"
+    }
+  },
+
+  "rich-text#category-poolday": {
+    "props": {
+      "text": "Poolday"
+    }
+  },
+
+  "flex-layout.col#category-hotels": {
+    "children": ["image#category-hotels", "rich-text#category-hotels"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category-hotels": {
+    "props": {
+      "src": "",
+      "maxWidth": "40px"
+    }
+  },
+
+  "rich-text#category-hotels": {
+    "props": {
+      "text": "Hoteles"
+    }
+  }
+}
