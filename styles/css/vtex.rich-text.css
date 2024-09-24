@@ -1,0 +1,154 @@
+.link--slider_third-row--button::after {
+    content: url("/arquivos/arrow-button.svg");
+}
+
+.link--slider_third-row--button {
+    align-items: center;
+    justify-content: center;
+    background-color: #1D2734;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 40px;
+    width: 134px;
+    height: 43px;
+    display: inline-flex;
+    gap: 9px;
+}
+
+.wrapper--text-info-card {
+    margin-left: 13.82px;
+}
+
+.heading-level-1 {
+    font-size: 16px;
+}
+
+.paragraph--text-info-card {
+    font-size: 12px;
+}
+
+.container--slider_third-row--button {
+    align-items: center;
+    display: flex;
+}
+
+.wrapper--text-amazing {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 102px ;
+    display: inline-flex;
+    color: #1D2734;
+}
+
+.product-slider {
+    padding: 20px 0;
+  }
+  
+  .product-slider-item {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .product-slider-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product-slider-discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-slider-discount-text {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .product-slider-wishlist {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .product-slider-image {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-slider-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para la descripción del producto */
+  .product-slider-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el precio */
+  .product-slider-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4e8d;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón de compra */
+  .product-slider-buy-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-slider-buy-button:hover {
+    background-color: #333;
+  }
+  
+  /* Estilos para el texto de envío gratis */
+  .product-slider-free-shipping {
+    font-size: 12px;
+    color: #ff4e8d;
+    margin-top: 5px;
+  }
+  
+  /* Estilos para las flechas de navegación */
+  .vtex-slider-layout-0-x-slideNavigationArrow {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Ajustes para dispositivos móviles */
+  @media (max-width: 600px) {
+    .product-slider-item {
+      margin: 0 5px;
+    }
+    
+    .product-slider-discount-text,
+    .product-slider-description,
+    .product-slider-price {
+      font-size: 12px;
+    }
+    
+    .product-slider-buy-button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }

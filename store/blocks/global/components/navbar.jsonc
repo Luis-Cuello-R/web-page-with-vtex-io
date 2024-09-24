@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#navbar": {
+    "props": {
+      "blockClass": "navbar-container",
+      "horizontalAlign": "space-between",
+      "verticalAlign": "center",
+      "padding": "10px 20px"
+    },
+    "children": [
+      "flex-layout.row#navbar-left",
+      "flex-layout.row#navbar-right"
+    ]
+  },
+
+  "flex-layout.row#navbar-left": {
+    "children": [
+      "rich-text#navbar-logo",
+      "flex-layout.row#navbar-links"
+    ]
+  },
+
+  "rich-text#navbar-logo": {
+    "props": {
+      "text": "**ITG**",
+      "blockClass": "navbar-logo"
+    }
+  },
+
+  "flex-layout.row#navbar-links": {
+    "children": [
+      "rich-text#navbar-link-home",
+      "rich-text#navbar-link-products",
+      "rich-text#navbar-link-about"
+    ]
+  },
+
+  "rich-text#navbar-link-home": {
+    "props": {
+      "text": "Home",
+      "blockClass": "navbar-links"
+    }
+  },
+
+  "rich-text#navbar-link-products": {
+    "props": {
+      "text": "Products",
+      "blockClass": "navbar-links"
+    }
+  },
+
+  "rich-text#navbar-link-about": {
+    "props": {
+      "text": "About",
+      "blockClass": "navbar-links"
+    }
+  },
+
+  "flex-layout.row#navbar-right": {
+    "children": [
+      "search-bar#navbar-search",
+      "icon-cart#navbar-cart"
+      // "button#login" se ha comentado temporalmente
+    ]
+  },
+
+  "search-bar#navbar-search": {
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": "search-container"
+    }
+  },
+
+  "icon-cart#navbar-cart": {
+    "props": {
+      "blockClass": "navbar-login cart-icon"
+    }
+  }
+}
