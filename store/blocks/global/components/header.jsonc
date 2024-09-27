@@ -1,0 +1,10 @@
+{
+  "header-row#header__bottom__icons__menu--global": {
+    "title": "Bottom header icons menu global",
+    "props": {
+      "blockClass": "header__bottom__icons__menu"
+    },
+
+    "children": ["vtex.menu@2.x:menu#websites__header__icons"]
+  }
+}

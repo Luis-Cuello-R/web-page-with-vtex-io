@@ -1,0 +1,16 @@
+{
+    "responsive-layout.mobile#mobile__home__section--1": {
+        "title": "Home section one MOBILE",
+        "children": [
+            "flex-layout.row#mobile__watches__banner--home",
+            "flex-layout.row#amazing__text--global",
+            "flex-layout.row#mobile__slider",
+            "flex-layout.row#amazing__text--global",
+            "flex-layout.row#mobile__product-summary",
+            "flex-layout.row#amazing__text--global",
+            "flex-layout.row#mobile__slider",
+            "flex-layout.row#amazing__text--global",
+            "flex-layout.row#mobile__product-summary"
+        ]
+    }
+}
